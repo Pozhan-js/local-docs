@@ -14,5 +14,37 @@
     ],
     "summary": "This conversation established a GitHub-based knowledge base approach, defined the kb-pageindex-pipeline-skill scope, initialized the remote repository workflow, and clarified how conversation content can be structured, indexed, and pushed for later retrieval.",
     "path": "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md"
+  },
+  {
+    "id": "2026-03-26-react-library-vs-framework-summary",
+    "title": "Why React Is Positioned as a UI Library Rather Than a Full Frontend Framework",
+    "date": "2026-03-26",
+    "source": "chat",
+    "project": "local-docs",
+    "tags": [
+      "react",
+      "frontend",
+      "framework",
+      "library",
+      "ui-architecture"
+    ],
+    "summary": "This note captures the distinction between React as a focused UI library and full frontend frameworks that also prescribe routing, data fetching, rendering strategy, and application structure.",
+    "path": "knowledge/conversations/2026-03-26-react-library-vs-framework-summary.md"
+  },
+  {
+    "id": "2026-03-26-react-kb-dialog-summary",
+    "title": "React Positioning Discussion and Knowledge Base Workflow Summary",
+    "date": "2026-03-26",
+    "source": "chat",
+    "project": "local-docs",
+    "tags": [
+      "react",
+      "knowledge-base",
+      "pageindex",
+      "retrieval",
+      "conversation-summary"
+    ],
+    "summary": "This conversation explained why React is positioned as a UI library rather than a full frontend framework, then demonstrated how to write and retrieve that knowledge through the local-docs pageIndex-style workflow.",
+    "path": "knowledge/conversations/2026-03-26-react-kb-dialog-summary.md"
   }
 ]

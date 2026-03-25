@@ -12,4 +12,4 @@ Private knowledge base repository for project summaries, troubleshooting notes, 
 The repository stores Markdown documents with stable frontmatter and section structure so they can be consumed by pageIndex-style pipelines or custom indexing scripts.
 
 ## Sync
-Changes are committed and pushed to the remote GitHub repository.
+Changes are committed and then pushed to the remote GitHub repository through GitHub MCP by default.

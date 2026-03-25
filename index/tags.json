@@ -1,17 +1,41 @@
 {
+  "react": [
+    "knowledge/conversations/2026-03-26-react-library-vs-framework-summary.md",
+    "knowledge/conversations/2026-03-26-react-kb-dialog-summary.md"
+  ],
+  "frontend": [
+    "knowledge/conversations/2026-03-26-react-library-vs-framework-summary.md"
+  ],
+  "framework": [
+    "knowledge/conversations/2026-03-26-react-library-vs-framework-summary.md"
+  ],
+  "library": [
+    "knowledge/conversations/2026-03-26-react-library-vs-framework-summary.md"
+  ],
+  "ui-architecture": [
+    "knowledge/conversations/2026-03-26-react-library-vs-framework-summary.md"
+  ],
   "knowledge-base": [
-    "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md"
+    "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md",
+    "knowledge/conversations/2026-03-26-react-kb-dialog-summary.md"
   ],
   "github": [
     "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md"
   ],
   "pageindex": [
-    "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md"
+    "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md",
+    "knowledge/conversations/2026-03-26-react-kb-dialog-summary.md"
   ],
   "skill": [
     "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md"
   ],
   "automation": [
     "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md"
+  ],
+  "retrieval": [
+    "knowledge/conversations/2026-03-26-react-kb-dialog-summary.md"
+  ],
+  "conversation-summary": [
+    "knowledge/conversations/2026-03-26-react-kb-dialog-summary.md"
   ]
 }

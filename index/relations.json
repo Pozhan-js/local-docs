@@ -18,5 +18,75 @@
     "source": "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md",
     "type": "tagged-by",
     "target": "github"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-26-react-library-vs-framework-summary.md",
+    "type": "documents",
+    "target": "index/documents.json"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-26-react-library-vs-framework-summary.md",
+    "type": "tagged-by",
+    "target": "react"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-26-react-library-vs-framework-summary.md",
+    "type": "tagged-by",
+    "target": "frontend"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-26-react-library-vs-framework-summary.md",
+    "type": "tagged-by",
+    "target": "framework"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-26-react-library-vs-framework-summary.md",
+    "type": "tagged-by",
+    "target": "library"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-26-react-library-vs-framework-summary.md",
+    "type": "tagged-by",
+    "target": "ui-architecture"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-26-react-kb-dialog-summary.md",
+    "type": "documents",
+    "target": "index/documents.json"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-26-react-kb-dialog-summary.md",
+    "type": "tagged-by",
+    "target": "react"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-26-react-kb-dialog-summary.md",
+    "type": "tagged-by",
+    "target": "knowledge-base"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-26-react-kb-dialog-summary.md",
+    "type": "tagged-by",
+    "target": "pageindex"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-26-react-kb-dialog-summary.md",
+    "type": "tagged-by",
+    "target": "retrieval"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-26-react-kb-dialog-summary.md",
+    "type": "tagged-by",
+    "target": "conversation-summary"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-26-react-kb-dialog-summary.md",
+    "type": "related-to",
+    "target": "knowledge/conversations/2026-03-26-react-library-vs-framework-summary.md"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-26-react-kb-dialog-summary.md",
+    "type": "related-to",
+    "target": "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md"
   }
 ]

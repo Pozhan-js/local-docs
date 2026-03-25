@@ -31,6 +31,9 @@ summary: "This conversation established a GitHub-based knowledge base approach, 
 - Decision: Use the target repository `local-docs` as the synchronization endpoint for generated knowledge documents.
   - Rationale: The user requested that local project or conversation knowledge be uploaded to the remote GitHub repository.
   - Evidence: The repository URL was provided as the expected remote destination.
+- Decision: After each completed summary, trigger GitHub MCP to push the updated knowledge-base files to the remote repository by default.
+  - Rationale: The user wants remote sync to be part of the normal summarization workflow rather than a separate manual step.
+  - Evidence: A follow-up requirement explicitly asked that every summary completion automatically call GitHub MCP and push to the remote repository.
 
 # Implementation Summary
 - A first version of `kb-pageindex-pipeline-skill` was drafted with a clear trigger description and output contract.
@@ -38,6 +41,7 @@ summary: "This conversation established a GitHub-based knowledge base approach, 
 - The skill output structure includes `Context`, `Key Decisions`, `Reusable Steps`, and `Risks / Boundaries` so the resulting Markdown is both human-readable and index-friendly.
 - A local evaluation scaffold was created earlier for skill iteration, including templates and placeholder evaluation scripts.
 - The remote repository `local-docs` was cloned locally and found to be an empty repository on branch `main`.
+- The sync requirement was tightened so that summary completion should include an attempted GitHub MCP push, with the result reported back clearly.
 
 # PageIndex Retrieval Notes
 - The current repository layout supports pageIndex-style ingestion because documents are stored as Markdown with stable metadata and explicit section names.
@@ -56,14 +60,16 @@ summary: "This conversation established a GitHub-based knowledge base approach, 
 2. Normalize the raw content into facts, decisions, actions, and open risks.
 3. Write a structured Markdown note with frontmatter and stable section headings.
 4. Update lightweight indexes for documents, tags, and relations.
-5. Commit and push the new knowledge artifact to the remote GitHub repository.
+5. Commit the new knowledge artifact and call GitHub MCP to push the change set to the remote GitHub repository.
 
 # Risks / Boundaries
 - No dedicated pageIndex build script has been added yet, so current retrieval compatibility relies on stable Markdown structure and lightweight JSON indexes.
 - Automated push depends on the local machine having valid GitHub HTTPS credentials configured.
+- Remote sync now also depends on GitHub MCP being available and able to target the intended remote/branch.
 - Some operational details in this note are inferred from the conversation context and local environment rather than from a full production pipeline.
 
 # Follow-ups
 - Add a repository script that regenerates `index/documents.json`, `index/tags.json`, and `index/relations.json` from all Markdown files.
 - Add a sync script or GitHub Action so index rebuilding happens automatically on each change.
+- Add stronger validation around GitHub MCP push reporting so local-only and remote-success states cannot be confused.
 - Expand the skill to ingest local project files and conversation exports directly instead of only using chat summaries.
