@@ -1,0 +1,18 @@
+[
+  {
+    "id": "2026-03-25-kb-pageindex-pipeline-skill-dialog-summary",
+    "title": "GitHub Private Knowledge Base and kb-pageindex-pipeline-skill Setup",
+    "date": "2026-03-25",
+    "source": "chat",
+    "project": "local-docs",
+    "tags": [
+      "knowledge-base",
+      "github",
+      "pageindex",
+      "skill",
+      "automation"
+    ],
+    "summary": "This conversation established a GitHub-based knowledge base approach, defined the kb-pageindex-pipeline-skill scope, initialized the remote repository workflow, and clarified how conversation content can be structured, indexed, and pushed for later retrieval.",
+    "path": "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md"
+  }
+]

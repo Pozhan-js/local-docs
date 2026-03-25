@@ -1,0 +1,22 @@
+[
+  {
+    "source": "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md",
+    "type": "documents",
+    "target": "index/documents.json"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md",
+    "type": "tagged-by",
+    "target": "knowledge-base"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md",
+    "type": "tagged-by",
+    "target": "pageindex"
+  },
+  {
+    "source": "knowledge/conversations/2026-03-25-kb-pageindex-pipeline-skill-dialog-summary.md",
+    "type": "tagged-by",
+    "target": "github"
+  }
+]
